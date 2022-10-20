@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>Web App</title>
+  </head>
+  <body>
+    <main>
+      <label for="name-input"
+        >Name:
+        <input type="text" id="name-input" />
+      </label>
+      <button id="addNameBtn">Add Name</button>
+      <br /><br /><br />
+      <div>
+        <label for="name-input"></label>
+        <input type="text" id="searchInput" placeholder="search by name" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Date Added</th>
+            <th>Delete</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <section hidden id="updateSection">
+        <label for="updateNameInput">Name:</label>
+        <input type="text" id="updateNameInput" />
+        <button id="updateRowBtn">Update</button>
+      </section>
+    </main>
+  </body>
+</html>
